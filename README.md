@@ -47,8 +47,8 @@ Usage:
 mws.Orders.ListOrders({
   MarketplaceId: 'lel',
   MaxResultsPerPage: 10,
-  CreatedAfter: new Date(1,1,2015),
-  CreatedBefore: new Date(1,2,2015)
+  CreatedAfter: new Date(2015, 1, 1),
+  CreatedBefore: new Date(2015, 1, 2)
 })
 .then(({ result, metadata }) => {
   // result
