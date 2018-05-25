@@ -12,7 +12,7 @@ Examples
 
 Installation:
 ```
-npm i mws-api -S
+npm i node-amazon-mws-api -S
 ```
 
 Initialization:
